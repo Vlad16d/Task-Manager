@@ -8,6 +8,9 @@ using TaskManager;
 
 namespace TaskManager
 {
+    /// <summary>
+    /// Główna forma aplikacji Menedżer zadań.
+    /// </summary>
     public partial class MainForm : Form
     {
         private List<TaskItem> tasks = new List<TaskItem>();
@@ -15,6 +18,9 @@ namespace TaskManager
         private int dragIndex = -1;
         private bool isDarkTheme = false;  // Флаг для определения текущей темы
 
+        /// <summary>
+        /// Inicjuje komponenty formularza i ładuje zadania.
+        /// </summary>
         public MainForm()
         {
             InitializeComponent();
@@ -22,6 +28,9 @@ namespace TaskManager
             ApplyTheme();
         }
 
+        /// <summary>
+        /// Ładuje zadania z bazy danych i aktualizuje listę w formularzu.
+        /// </summary>
         private void LoadTasks()
         {
             try
@@ -35,7 +44,9 @@ namespace TaskManager
             }
         }
 
-
+        /// <summary>
+        /// Zapisuje bieżącą listę zadań w bazie danych.
+        /// </summary>
         private void SaveTasks()
         {
             try
@@ -48,7 +59,9 @@ namespace TaskManager
             }
         }
 
-
+        /// <summary>
+        /// Odświeża wyświetlanie listy zadań i statystyk.
+        /// </summary>
         private void UpdateTaskList()
         {
             listBoxTasks.Items.Clear();
@@ -60,6 +73,9 @@ namespace TaskManager
             labelStats.Text = $"Tasks: {tasks.Count} | Completed: {tasks.FindAll(t => t.IsCompleted).Count}";
         }
 
+        /// <summary>
+        /// Zastosuje bieżący motyw (light or dark).
+        /// </summary>
         private void ApplyTheme()
         {
             if (isDarkTheme)
@@ -88,12 +104,18 @@ namespace TaskManager
             }
         }
 
+        /// <summary>
+        /// Obsługa przycisku przełączania motywu.
+        /// </summary>
         private void buttonToggleTheme_Click(object sender, EventArgs e)
         {
             isDarkTheme = !isDarkTheme;  // Переключаем флаг темы
             ApplyTheme();  // Применяем новую тему
         }
 
+        /// <summary>
+        /// Program do dodawania nowego zadania.
+        /// </summary>
         private void buttonAdd_Click(object sender, EventArgs e)
         {
             string name = textBoxTask.Text.Trim();
@@ -117,14 +139,17 @@ namespace TaskManager
 
         //private void buttonComplete_Click(object sender, EventArgs e)
         //{
-          //  if (listBoxTasks.SelectedIndex >= 0)
-            //{
-              //  tasks[listBoxTasks.SelectedIndex].IsCompleted = !tasks[listBoxTasks.SelectedIndex].IsCompleted;
-                //UpdateTaskList();
-                //SaveTasks();
-            //}
+        //  if (listBoxTasks.SelectedIndex >= 0)
+        //{
+        //  tasks[listBoxTasks.SelectedIndex].IsCompleted = !tasks[listBoxTasks.SelectedIndex].IsCompleted;
+        //UpdateTaskList();
+        //SaveTasks();
+        //}
         //}
 
+        /// <summary>
+        /// Program do obsługi zadań.
+        /// </summary>
         private void buttonComplete_Click(object sender, EventArgs e)
         {
             if (listBoxTasks.SelectedIndex >= 0)
@@ -148,7 +173,9 @@ namespace TaskManager
             }
         }
 
-
+        /// <summary>
+        /// Program obsługi usuwania zadań.
+        /// </summary>
         private void buttonDelete_Click(object sender, EventArgs e)
         {
             if (listBoxTasks.SelectedIndex >= 0)
@@ -170,7 +197,9 @@ namespace TaskManager
             }
         }
 
-
+        /// <summary>
+        /// Obsługa edycji zadań.
+        /// </summary>
         private void buttonEdit_Click(object sender, EventArgs e)
         {
             int index = listBoxTasks.SelectedIndex;
@@ -201,7 +230,9 @@ namespace TaskManager
             }
         }
 
-
+        /// <summary>
+        /// Sortuje zadania alfabetycznie.
+        /// </summary>
         private void buttonSortAlpha_Click(object sender, EventArgs e)
         {
             tasks.Sort((a, b) => string.Compare(a.Name, b.Name, StringComparison.OrdinalIgnoreCase));
@@ -209,6 +240,9 @@ namespace TaskManager
             SaveTasks();
         }
 
+        /// <summary>
+        /// Sortuje zadania według statusu wykonania.
+        /// </summary>
         private void buttonSortStatus_Click(object sender, EventArgs e)
         {
             tasks.Sort((a, b) => a.IsCompleted.CompareTo(b.IsCompleted));
@@ -248,6 +282,9 @@ namespace TaskManager
             }
         }
 
+        /// <summary>
+        /// Niestandardowe renderowanie elementów listy zadań.
+        /// </summary>
         private void listBoxTasks_DrawItem(object sender, DrawItemEventArgs e)
         {
             if (e.Index < 0) return;
@@ -258,6 +295,9 @@ namespace TaskManager
             e.DrawFocusRectangle();
         }
 
+        /// <summary>
+        /// Procesy naciśnięcia klawisz Enter i Delete w formularzu.
+        /// </summary>
         protected override bool ProcessCmdKey(ref Message msg, Keys keyData)
         {
             if (keyData == Keys.Enter)

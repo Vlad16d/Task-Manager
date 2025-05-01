@@ -3,24 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\imaf2\\source\\repos\\TaskManager\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{0CEF64F3-39EF-4D26-A5A5-E0328C86E613}|TaskManager\\TaskManager.csproj|c:\\users\\imaf2\\source\\repos\\taskmanager\\taskmanager\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0CEF64F3-39EF-4D26-A5A5-E0328C86E613}|TaskManager\\TaskManager.csproj|solutionrelative:taskmanager\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{0CEF64F3-39EF-4D26-A5A5-E0328C86E613}|TaskManager\\TaskManager.csproj|c:\\users\\imaf2\\source\\repos\\taskmanager\\taskmanager\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0CEF64F3-39EF-4D26-A5A5-E0328C86E613}|TaskManager\\TaskManager.csproj|solutionrelative:taskmanager\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0CEF64F3-39EF-4D26-A5A5-E0328C86E613}|TaskManager\\TaskManager.csproj|c:\\users\\imaf2\\source\\repos\\taskmanager\\taskmanager\\mainform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0CEF64F3-39EF-4D26-A5A5-E0328C86E613}|TaskManager\\TaskManager.csproj|solutionrelative:taskmanager\\mainform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0CEF64F3-39EF-4D26-A5A5-E0328C86E613}|TaskManager\\TaskManager.csproj|C:\\Users\\imaf2\\source\\repos\\TaskManager\\taskmanager\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{0CEF64F3-39EF-4D26-A5A5-E0328C86E613}|TaskManager\\TaskManager.csproj|solutionrelative:taskmanager\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{0CEF64F3-39EF-4D26-A5A5-E0328C86E613}|TaskManager\\TaskManager.csproj|c:\\users\\imaf2\\source\\repos\\taskmanager\\taskmanager\\databasehelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0CEF64F3-39EF-4D26-A5A5-E0328C86E613}|TaskManager\\TaskManager.csproj|solutionrelative:taskmanager\\databasehelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0CEF64F3-39EF-4D26-A5A5-E0328C86E613}|TaskManager\\TaskManager.csproj|c:\\users\\imaf2\\source\\repos\\taskmanager\\taskmanager\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0CEF64F3-39EF-4D26-A5A5-E0328C86E613}|TaskManager\\TaskManager.csproj|solutionrelative:taskmanager\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0CEF64F3-39EF-4D26-A5A5-E0328C86E613}|TaskManager\\TaskManager.csproj|c:\\users\\imaf2\\source\\repos\\taskmanager\\taskmanager\\taskitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -29,6 +21,14 @@
     {
       "AbsoluteMoniker": "D:0:0:{0CEF64F3-39EF-4D26-A5A5-E0328C86E613}|TaskManager\\TaskManager.csproj|c:\\users\\imaf2\\source\\repos\\taskmanager\\taskmanager\\tag.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0CEF64F3-39EF-4D26-A5A5-E0328C86E613}|TaskManager\\TaskManager.csproj|solutionrelative:taskmanager\\tag.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0CEF64F3-39EF-4D26-A5A5-E0328C86E613}|TaskManager\\TaskManager.csproj|C:\\Users\\imaf2\\source\\repos\\TaskManager\\taskmanager\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{0CEF64F3-39EF-4D26-A5A5-E0328C86E613}|TaskManager\\TaskManager.csproj|solutionrelative:taskmanager\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0CEF64F3-39EF-4D26-A5A5-E0328C86E613}|TaskManager\\TaskManager.csproj|c:\\users\\imaf2\\source\\repos\\taskmanager\\taskmanager\\mainform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0CEF64F3-39EF-4D26-A5A5-E0328C86E613}|TaskManager\\TaskManager.csproj|solutionrelative:taskmanager\\mainform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,7 +38,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 9,
           "Children": [
             {
               "$type": "Bookmark",
@@ -54,59 +54,59 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 4,
               "Title": "Tag.cs",
               "DocumentMoniker": "C:\\Users\\imaf2\\source\\repos\\TaskManager\\TaskManager\\Tag.cs",
               "RelativeDocumentMoniker": "TaskManager\\Tag.cs",
               "ToolTip": "C:\\Users\\imaf2\\source\\repos\\TaskManager\\TaskManager\\Tag.cs",
               "RelativeToolTip": "TaskManager\\Tag.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAA6AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-21T12:36:18.793Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "DatabaseHelper.cs",
               "DocumentMoniker": "C:\\Users\\imaf2\\source\\repos\\TaskManager\\TaskManager\\DatabaseHelper.cs",
               "RelativeDocumentMoniker": "TaskManager\\DatabaseHelper.cs",
               "ToolTip": "C:\\Users\\imaf2\\source\\repos\\TaskManager\\TaskManager\\DatabaseHelper.cs",
               "RelativeToolTip": "TaskManager\\DatabaseHelper.cs",
-              "ViewState": "AgIAACgAAAAAAAAAAAAQwDMAAAANAAAAAAAAAA==",
+              "ViewState": "AgIAAFUAAAAAAAAAAAAkwF8AAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-21T11:30:46.152Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "MainForm.cs",
               "DocumentMoniker": "C:\\Users\\imaf2\\source\\repos\\TaskManager\\TaskManager\\MainForm.cs",
               "RelativeDocumentMoniker": "TaskManager\\MainForm.cs",
               "ToolTip": "C:\\Users\\imaf2\\source\\repos\\TaskManager\\TaskManager\\MainForm.cs",
               "RelativeToolTip": "TaskManager\\MainForm.cs",
-              "ViewState": "AgIAALIAAAAAAAAAAAAqwMgAAAANAAAAAAAAAA==",
+              "ViewState": "AgIAAB0BAAAAAAAAAAAAACgBAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-20T15:35:33.021Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 6,
               "Title": "MainForm.Designer.cs",
               "DocumentMoniker": "C:\\Users\\imaf2\\source\\repos\\TaskManager\\TaskManager\\MainForm.Designer.cs",
               "RelativeDocumentMoniker": "TaskManager\\MainForm.Designer.cs",
               "ToolTip": "C:\\Users\\imaf2\\source\\repos\\TaskManager\\TaskManager\\MainForm.Designer.cs",
               "RelativeToolTip": "TaskManager\\MainForm.Designer.cs",
-              "ViewState": "AgIAAEIAAAAAAAAAAAD4v1QAAAA5AAAAAAAAAA==",
+              "ViewState": "AgIAAF0AAAAAAAAAAAAAAG4AAABEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-20T15:35:19.62Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
               "Title": "MainForm.cs [Design]",
               "DocumentMoniker": "C:\\Users\\imaf2\\source\\repos\\TaskManager\\TaskManager\\MainForm.cs",
               "RelativeDocumentMoniker": "TaskManager\\MainForm.cs",
@@ -118,26 +118,26 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 3,
               "Title": "TaskItem.cs",
               "DocumentMoniker": "C:\\Users\\imaf2\\source\\repos\\TaskManager\\TaskManager\\TaskItem.cs",
               "RelativeDocumentMoniker": "TaskManager\\TaskItem.cs",
               "ToolTip": "C:\\Users\\imaf2\\source\\repos\\TaskManager\\TaskManager\\TaskItem.cs",
               "RelativeToolTip": "TaskManager\\TaskItem.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAABPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-20T15:34:39.7Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 0,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\imaf2\\source\\repos\\TaskManager\\TaskManager\\Program.cs",
               "RelativeDocumentMoniker": "TaskManager\\Program.cs",
               "ToolTip": "C:\\Users\\imaf2\\source\\repos\\TaskManager\\TaskManager\\Program.cs",
               "RelativeToolTip": "TaskManager\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAABBAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-20T15:34:05.164Z",
               "EditorCaption": ""

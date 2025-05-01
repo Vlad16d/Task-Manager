@@ -1,5 +1,8 @@
 ﻿namespace TaskManager
 {
+    /// <summary>
+    /// Reprezentuje zadanie zawierające nazwę, status wykonania i listę tagów.
+    /// </summary>
     public class TaskItem
     {
         public int Id { get; set; }

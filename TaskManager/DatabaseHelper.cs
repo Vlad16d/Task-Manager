@@ -4,10 +4,17 @@ using Microsoft.Data.SqlClient;
 
 namespace TaskManager
 {
+    /// <summary>
+    /// Zawiera metody pracy z bazą danych.
+    /// </summary>
     public static class DatabaseHelper
     {
         private static string connectionString = "Server=localhost;Database=TaskManagerDB;Trusted_Connection=True;TrustServerCertificate=True;";
 
+        /// <summary>
+        /// Ładuje wszystkie zadania z bazy danych.
+        /// </summary>
+        /// <returns> Lista zadań </returns>
         public static List<TaskItem> LoadTasks()
         {
             List<TaskItem> tasks = new List<TaskItem>();
@@ -33,6 +40,10 @@ namespace TaskManager
             return tasks;
         }
 
+        /// <summary>
+        /// Dodaje nowe zadanie do bazy danych.
+        /// </summary>
+        /// <param name="task">Dadawane zadanie</param>
         public static void AddTask(TaskItem task)
         {
             using (SqlConnection connection = new SqlConnection(connectionString))
@@ -46,6 +57,10 @@ namespace TaskManager
             }
         }
 
+        /// <summary>
+        /// Aktualizuje istniejące zadanie w bazie danych.
+        /// </summary>
+        /// <param name="task"> Aktualizowane zadanie </param>
         public static void UpdateTask(TaskItem task)
         {
             using (SqlConnection connection = new SqlConnection(connectionString))
@@ -60,6 +75,10 @@ namespace TaskManager
             }
         }
 
+        /// <summary>
+        /// Usuwa zadanie według identyfikatora.
+        /// </summary>
+        /// <param name="id"> ID zadania do usunięcia </param>
         public static void DeleteTask(int id)
         {
             using (SqlConnection connection = new SqlConnection(connectionString))
@@ -72,6 +91,10 @@ namespace TaskManager
             }
         }
 
+        /// <summary>
+        /// Zapisuje listę zadań do bazy danych.
+        /// </summary>
+        /// <param name="tasks"> Lista zadań do zapisania. </param>
         public static void SaveTasks(List<TaskItem> tasks)
         {
             using (var connection = new SqlConnection(connectionString))
